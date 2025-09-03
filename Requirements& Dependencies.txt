@@ -1,0 +1,16 @@
+Requirements& Dependencies
+ lightgbm in c:\users\deep\anaconda3\lib\site-packages (4.6.0)
+ scikit-learn in c:\users\deep\anaconda3\lib\site-packages (1.5.1)
+ imbalanced-learn in c:\users\deep\anaconda3\lib\site-packages (0.12.3)
+ geopy in c:\users\deep\anaconda3\lib\site-packages (2.4.1)
+ numpy>=1.17.0 in c:\users\deep\anaconda3\lib\site-packages (from lightgbm) (1.26.4)
+ scipy in c:\users\deep\anaconda3\lib\site-packages (from lightgbm) (1.13.1)
+ joblib>=1.2.0 in c:\users\deep\anaconda3\lib\site-packages (from scikit-learn) (1.4.2)
+ threadpoolctl>=3.1.0 in c:\users\deep\anaconda3\lib\site-packages (from scikit-learn) (3.5.0)
+ geographiclib<3,>=1.52 in c:\users\deep\anaconda3\lib\site-packages (from geopy) (2.1)
+
+I initially tried running the project in Jupyter Notebook, but faced challenges with deployment. To overcome this,
+ I switched to VS Code, where I focused on deploying the model successfully. I also created a dedicated environment 
+for the project and organized all the required files within a single folder.
+ Through several trials and errors, I was able to set up and deploy the model. 
+The entire process took me around 4 days, and the deployed fraud detection model achieved an accuracy of 87%.
