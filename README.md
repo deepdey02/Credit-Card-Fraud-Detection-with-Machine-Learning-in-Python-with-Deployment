@@ -13,6 +13,7 @@ Steps for practical fraud detection techniques and deploy machine learning model
 4. Developing an interactive UI with Streamlit for real-time fraud detection.
 
 Tools and Libraries Used:
+VS CODE
 Python
 Pandas, NumPy
 Scikit-learn
